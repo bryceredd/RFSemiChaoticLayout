@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RFSemiChaoticLayout.h"
 
-@interface RFViewController : UIViewController
-
+@interface RFViewController : UICollectionViewController <RFSemiChaoticLayoutDelegate>
 @end
