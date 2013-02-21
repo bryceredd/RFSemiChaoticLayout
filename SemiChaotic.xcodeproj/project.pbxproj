@@ -18,10 +18,11 @@
 		02CF244116D3EB8400ED91A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CF244016D3EB8400ED91A1 /* Default-568h@2x.png */; };
 		02CF244416D3EB8400ED91A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CF244216D3EB8400ED91A1 /* MainStoryboard.storyboard */; };
 		02CF244716D3EB8400ED91A1 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF244616D3EB8400ED91A1 /* RFViewController.m */; };
-		02CF245016D3EC1400ED91A1 /* RFSemiChaoticLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF244F16D3EC1400ED91A1 /* RFSemiChaoticLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		028170EB16D68F240093F5E3 /* RFSemiChaoticLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RFSemiChaoticLayout.h; path = RFSemiChaoticLayout/RFSemiChaoticLayout.h; sourceTree = SOURCE_ROOT; };
+		028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RFSemiChaoticLayout.m; path = RFSemiChaoticLayout/RFSemiChaoticLayout.m; sourceTree = SOURCE_ROOT; };
 		02CF242716D3EB8400ED91A1 /* SemiChaotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiChaotic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CF242A16D3EB8400ED91A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02CF242C16D3EB8400ED91A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,8 +39,6 @@
 		02CF244316D3EB8400ED91A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		02CF244516D3EB8400ED91A1 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		02CF244616D3EB8400ED91A1 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
-		02CF244E16D3EC1400ED91A1 /* RFSemiChaoticLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSemiChaoticLayout.h; sourceTree = "<group>"; };
-		02CF244F16D3EC1400ED91A1 /* RFSemiChaoticLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSemiChaoticLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +113,8 @@
 		02CF244D16D3EB8F00ED91A1 /* RFSemiChaotic */ = {
 			isa = PBXGroup;
 			children = (
-				02CF244E16D3EC1400ED91A1 /* RFSemiChaoticLayout.h */,
-				02CF244F16D3EC1400ED91A1 /* RFSemiChaoticLayout.m */,
+				028170EB16D68F240093F5E3 /* RFSemiChaoticLayout.h */,
+				028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */,
 			);
 			name = RFSemiChaotic;
 			sourceTree = "<group>";
@@ -190,7 +189,6 @@
 				02CF243716D3EB8400ED91A1 /* main.m in Sources */,
 				02CF243B16D3EB8400ED91A1 /* RFAppDelegate.m in Sources */,
 				02CF244716D3EB8400ED91A1 /* RFViewController.m in Sources */,
-				02CF245016D3EC1400ED91A1 /* RFSemiChaoticLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +313,7 @@
 				02CF244C16D3EB8400ED91A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
