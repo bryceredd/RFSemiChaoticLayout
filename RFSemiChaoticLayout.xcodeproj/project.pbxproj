@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028170ED16D691940093F5E3 /* RFSemiChaoticLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */; };
+		02CF242B16D3EB8400ED91A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242A16D3EB8400ED91A1 /* UIKit.framework */; };
+		02CF242D16D3EB8400ED91A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242C16D3EB8400ED91A1 /* Foundation.framework */; };
+		02CF242F16D3EB8400ED91A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242E16D3EB8400ED91A1 /* CoreGraphics.framework */; };
+		02CF243516D3EB8400ED91A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02CF243316D3EB8400ED91A1 /* InfoPlist.strings */; };
+		02CF243716D3EB8400ED91A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF243616D3EB8400ED91A1 /* main.m */; };
+		02CF243B16D3EB8400ED91A1 /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF243A16D3EB8400ED91A1 /* RFAppDelegate.m */; };
+		02CF243D16D3EB8400ED91A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CF243C16D3EB8400ED91A1 /* Default.png */; };
+		02CF243F16D3EB8400ED91A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CF243E16D3EB8400ED91A1 /* Default@2x.png */; };
+		02CF244116D3EB8400ED91A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CF244016D3EB8400ED91A1 /* Default-568h@2x.png */; };
+		02CF244416D3EB8400ED91A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CF244216D3EB8400ED91A1 /* MainStoryboard.storyboard */; };
+		02CF244716D3EB8400ED91A1 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF244616D3EB8400ED91A1 /* RFViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028170EB16D68F240093F5E3 /* RFSemiChaoticLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RFSemiChaoticLayout.h; path = RFSemiChaoticLayout/RFSemiChaoticLayout.h; sourceTree = SOURCE_ROOT; };
+		028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RFSemiChaoticLayout.m; path = RFSemiChaoticLayout/RFSemiChaoticLayout.m; sourceTree = SOURCE_ROOT; };
+		02CF242716D3EB8400ED91A1 /* RFSemiChaoticLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFSemiChaoticLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CF242A16D3EB8400ED91A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02CF242C16D3EB8400ED91A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02CF242E16D3EB8400ED91A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02CF243216D3EB8400ED91A1 /* SemiChaotic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SemiChaotic-Info.plist"; sourceTree = "<group>"; };
+		02CF243416D3EB8400ED91A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02CF243616D3EB8400ED91A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02CF243816D3EB8400ED91A1 /* SemiChaotic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SemiChaotic-Prefix.pch"; sourceTree = "<group>"; };
+		02CF243916D3EB8400ED91A1 /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
+		02CF243A16D3EB8400ED91A1 /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
+		02CF243C16D3EB8400ED91A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02CF243E16D3EB8400ED91A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02CF244016D3EB8400ED91A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		02CF244316D3EB8400ED91A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		02CF244516D3EB8400ED91A1 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		02CF244616D3EB8400ED91A1 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CF242416D3EB8400ED91A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CF242B16D3EB8400ED91A1 /* UIKit.framework in Frameworks */,
+				02CF242D16D3EB8400ED91A1 /* Foundation.framework in Frameworks */,
+				02CF242F16D3EB8400ED91A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CF241E16D3EB8400ED91A1 = {
+			isa = PBXGroup;
+			children = (
+				02CF243016D3EB8400ED91A1 /* Example */,
+				02CF242916D3EB8400ED91A1 /* Frameworks */,
+				02CF242816D3EB8400ED91A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CF242816D3EB8400ED91A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CF242716D3EB8400ED91A1 /* RFSemiChaoticLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CF242916D3EB8400ED91A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CF242A16D3EB8400ED91A1 /* UIKit.framework */,
+				02CF242C16D3EB8400ED91A1 /* Foundation.framework */,
+				02CF242E16D3EB8400ED91A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02CF243016D3EB8400ED91A1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				02CF244D16D3EB8F00ED91A1 /* RFSemiChaoticLayout */,
+				02CF243916D3EB8400ED91A1 /* RFAppDelegate.h */,
+				02CF243A16D3EB8400ED91A1 /* RFAppDelegate.m */,
+				02CF244216D3EB8400ED91A1 /* MainStoryboard.storyboard */,
+				02CF244516D3EB8400ED91A1 /* RFViewController.h */,
+				02CF244616D3EB8400ED91A1 /* RFViewController.m */,
+				02CF243116D3EB8400ED91A1 /* Supporting Files */,
+			);
+			name = Example;
+			path = SemiChaotic;
+			sourceTree = "<group>";
+		};
+		02CF243116D3EB8400ED91A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02CF243216D3EB8400ED91A1 /* SemiChaotic-Info.plist */,
+				02CF243316D3EB8400ED91A1 /* InfoPlist.strings */,
+				02CF243616D3EB8400ED91A1 /* main.m */,
+				02CF243816D3EB8400ED91A1 /* SemiChaotic-Prefix.pch */,
+				02CF243C16D3EB8400ED91A1 /* Default.png */,
+				02CF243E16D3EB8400ED91A1 /* Default@2x.png */,
+				02CF244016D3EB8400ED91A1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02CF244D16D3EB8F00ED91A1 /* RFSemiChaoticLayout */ = {
+			isa = PBXGroup;
+			children = (
+				028170EB16D68F240093F5E3 /* RFSemiChaoticLayout.h */,
+				028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */,
+			);
+			name = RFSemiChaoticLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CF242616D3EB8400ED91A1 /* RFSemiChaoticLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CF244A16D3EB8400ED91A1 /* Build configuration list for PBXNativeTarget "RFSemiChaoticLayout" */;
+			buildPhases = (
+				02CF242316D3EB8400ED91A1 /* Sources */,
+				02CF242416D3EB8400ED91A1 /* Frameworks */,
+				02CF242516D3EB8400ED91A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFSemiChaoticLayout;
+			productName = SemiChaotic;
+			productReference = 02CF242716D3EB8400ED91A1 /* RFSemiChaoticLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CF241F16D3EB8400ED91A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bryce Redd";
+			};
+			buildConfigurationList = 02CF242216D3EB8400ED91A1 /* Build configuration list for PBXProject "RFSemiChaoticLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02CF241E16D3EB8400ED91A1;
+			productRefGroup = 02CF242816D3EB8400ED91A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CF242616D3EB8400ED91A1 /* RFSemiChaoticLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CF242516D3EB8400ED91A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CF243516D3EB8400ED91A1 /* InfoPlist.strings in Resources */,
+				02CF243D16D3EB8400ED91A1 /* Default.png in Resources */,
+				02CF243F16D3EB8400ED91A1 /* Default@2x.png in Resources */,
+				02CF244116D3EB8400ED91A1 /* Default-568h@2x.png in Resources */,
+				02CF244416D3EB8400ED91A1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CF242316D3EB8400ED91A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028170ED16D691940093F5E3 /* RFSemiChaoticLayout.m in Sources */,
+				02CF243716D3EB8400ED91A1 /* main.m in Sources */,
+				02CF243B16D3EB8400ED91A1 /* RFAppDelegate.m in Sources */,
+				02CF244716D3EB8400ED91A1 /* RFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02CF243316D3EB8400ED91A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CF243416D3EB8400ED91A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02CF244216D3EB8400ED91A1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CF244316D3EB8400ED91A1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02CF244816D3EB8400ED91A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		02CF244916D3EB8400ED91A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CF244B16D3EB8400ED91A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SemiChaotic/SemiChaotic-Prefix.pch";
+				INFOPLIST_FILE = "SemiChaotic/SemiChaotic-Info.plist";
+				PRODUCT_NAME = RFSemiChaoticLayout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02CF244C16D3EB8400ED91A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SemiChaotic/SemiChaotic-Prefix.pch";
+				INFOPLIST_FILE = "SemiChaotic/SemiChaotic-Info.plist";
+				PRODUCT_NAME = RFSemiChaoticLayout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CF242216D3EB8400ED91A1 /* Build configuration list for PBXProject "RFSemiChaoticLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CF244816D3EB8400ED91A1 /* Debug */,
+				02CF244916D3EB8400ED91A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CF244A16D3EB8400ED91A1 /* Build configuration list for PBXNativeTarget "RFSemiChaoticLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CF244B16D3EB8400ED91A1 /* Debug */,
+				02CF244C16D3EB8400ED91A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CF241F16D3EB8400ED91A1 /* Project object */;
+}
