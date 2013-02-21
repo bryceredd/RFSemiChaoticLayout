@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028170ED16D691940093F5E3 /* RFSemiChaoticLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 028170EC16D68F240093F5E3 /* RFSemiChaoticLayout.m */; };
 		02CF242B16D3EB8400ED91A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242A16D3EB8400ED91A1 /* UIKit.framework */; };
 		02CF242D16D3EB8400ED91A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242C16D3EB8400ED91A1 /* Foundation.framework */; };
 		02CF242F16D3EB8400ED91A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF242E16D3EB8400ED91A1 /* CoreGraphics.framework */; };
@@ -186,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028170ED16D691940093F5E3 /* RFSemiChaoticLayout.m in Sources */,
 				02CF243716D3EB8400ED91A1 /* main.m in Sources */,
 				02CF243B16D3EB8400ED91A1 /* RFAppDelegate.m in Sources */,
 				02CF244716D3EB8400ED91A1 /* RFViewController.m in Sources */,
