@@ -21,7 +21,7 @@ int num = 0;
     
     self.numbers = [@[] mutableCopy];
     
-    for (; num<500; num++) {
+    for (; num<50; num++) {
         [self.numbers addObject:@(num)];
     }
     
@@ -73,14 +73,13 @@ int num = 0;
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    [self.collectionView reloadData];
-    return;
-    
-    if(indexPath.row % 2) {
+    [self remove:nil];
+    //[self add:nil];
+    /*if(indexPath.row % 2) {
         [self add:nil];
     } else {
         [self remove:nil];
-    }
+    }*/
 }
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
     // TODO: Deselect Item
@@ -91,7 +90,7 @@ int num = 0;
 
 - (CGRect)chaoticLayout:(RFSemiChaoticLayout *)layout roughFrameForIndexPath:(NSIndexPath *)indexPath {
     // we're going to make three boxes every 100 px
-    return CGRectMake((indexPath.row % 3) * 100, (int)(indexPath.row / 3) * 100, 200, 200);
+    return CGRectMake((indexPath.row % 3) * 100, (int)(indexPath.row / 3) * 100, 100, 100);
 }
 
 @end

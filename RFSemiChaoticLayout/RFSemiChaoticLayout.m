@@ -26,7 +26,7 @@
 
 - (void) invalidateLayout {
     [super invalidateLayout];
-    //self.rects = [@[] mutableCopy];
+    self.rects = [@{} mutableCopy];
 }
 
 - (CGSize)collectionViewContentSize {
