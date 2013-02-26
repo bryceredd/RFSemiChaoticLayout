@@ -10,6 +10,7 @@
 
 @interface RFSemiChaoticLayout()
 @property(nonatomic) NSMutableDictionary* rects;
+@property(nonatomic) NSMutableDictionary* cachedRects;
 @end
 
 @implementation RFSemiChaoticLayout
@@ -26,6 +27,8 @@
 
 - (void) invalidateLayout {
     [super invalidateLayout];
+    
+    self.cachedRects = self.rects;
     self.rects = [@{} mutableCopy];
 }
 
@@ -84,8 +87,18 @@
 - (void) findAHomeForIndexPath:(NSIndexPath*)path {
     CGRect frame = [self.delegate chaoticLayout:self roughFrameForIndexPath:path];
     CGRect rect = [self.rects[@(path.row)] CGRectValue];
+    CGRect cachedRect = [self.cachedRects[@(path.row)] CGRectValue];
     
     if(CGSizeEqualToSize(frame.size, rect.size) || self.rects[@(path.row)]) return;
+    
+    // to preserve some continuity after an invalidate layout, we'll check
+    // our cached rects - if its the same path and size we'll add in the cached
+    // location to the working location
+    
+    if(!CGRectIsNull(cachedRect) && CGSizeEqualToSize(frame.size, cachedRect.size)) {
+        self.rects[@(path.row)] = [NSValue valueWithCGRect:cachedRect];
+        return;
+    }
     
     self.rects[@(path.row)] = [NSValue valueWithCGRect:[self placeOriginOfRect:frame]];
 }
